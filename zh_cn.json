@@ -242,7 +242,7 @@
     "key.meteor-client.module.waypoints.title": "航点",
     "key.meteor-client.module.waypoints.description": "允许你创建航点。",
     "key.meteor-client.module.xray.title": "矿透",
-    "key.meteor-client.module.xray.description": "只渲染指定的方块。适合挖矿。",
+    "key.meteor-client.module.xray.description": "只渲染指定的方块，适合挖矿。",
     "key.meteor-client.module.zoom.title": "缩放",
     "key.meteor-client.module.zoom.description": "缩放你的视图。",
     "key.meteor-client.module.blur.title": "模糊",
