@@ -30,7 +30,7 @@
     "key.meteor-client.module.bow-aimbot.title": "弓瞄准器",
     "key.meteor-client.module.bow-aimbot.description": "自动瞄准你的弓。",
     "key.meteor-client.module.bow-spam.title": "合并信息",
-    "key.meteor-client.module.bow-spam.description": "合并信息。",
+    "key.meteor-client.module.bow-spam.description": "将聊天栏重复信息合并为 x2 x3 的样子。",
     "key.meteor-client.module.burrow.title": "地洞",
     "key.meteor-client.module.burrow.description": "试图将你夹在一个方块中。",
     "key.meteor-client.module.criticals.title": "批评",
