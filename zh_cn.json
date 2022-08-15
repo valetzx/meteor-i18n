@@ -287,7 +287,7 @@
     "key.meteor-client.module.mount-bypass.description": "允许你绕过 IllegalStacks 插件并将箱子放在实体上。",
     "key.meteor-client.module.nuker.title": "核弹",
     "key.meteor-client.module.nuker.description": "破坏你周围的方块（像核弹一样）。",
-    "key.meteor-client.module.stash-finder.title": "Stash Finder",
+    "key.meteor-client.module.stash-finder.title": "查找器",
     "key.meteor-client.module.stash-finder.description": "在加载的区块中搜索存储块。保存到 \u003cyour minecraft folder\u003e/meteor-client",
     "key.meteor-client.module.spawn-proofer.title": "Spawn Proofer",
     "key.meteor-client.module.spawn-proofer.description": "自动生成无光照区域。",
