@@ -29,7 +29,7 @@
     "key.meteor-client.module.bed-aura.description": "在下界和末地自动放置和爆炸床。",
     "key.meteor-client.module.bow-aimbot.title": "弓瞄准器",
     "key.meteor-client.module.bow-aimbot.description": "自动瞄准你的弓。",
-    "key.meteor-client.module.bow-spam.title": "弓垃圾邮件",
+    "key.meteor-client.module.bow-spam.title": "垃圾邮件",
     "key.meteor-client.module.bow-spam.description": "垃圾邮件箭头。",
     "key.meteor-client.module.burrow.title": "地洞",
     "key.meteor-client.module.burrow.description": "试图将你夹在一个方块中。",
