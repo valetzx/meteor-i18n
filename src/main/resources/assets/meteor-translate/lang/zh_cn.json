@@ -21,7 +21,7 @@
     "key.meteor-client.module.auto-totem.description": "自动为你的副手装备一个图腾。",
     "key.meteor-client.module.auto-trap.title": "自动陷阱",
     "key.meteor-client.module.auto-trap.description": "将人困在黑曜石盒子中以防止他们移动。",
-    "key.meteor-client.module.auto-weapon.title": "自动切换武器",
+    "key.meteor-client.module.auto-weapon.title": "自动武器",
     "key.meteor-client.module.auto-weapon.description": "在你的快捷栏中找到最好的武器。",
     "key.meteor-client.module.auto-web.title": "自动蛛网",
     "key.meteor-client.module.auto-web.description": "自动将蛛网放置在其他玩家身上。",
