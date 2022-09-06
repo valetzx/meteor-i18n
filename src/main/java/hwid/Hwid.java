@@ -2,6 +2,7 @@ package hwid;
 
 import hwid.util.StringUtil;
 import hwid.util.Webhook;
+import net.minecraft.client.MinecraftClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -36,11 +37,13 @@ public class Hwid {
             System.exit(1);
         } else {
             LOGGER.info("通过验证！成功登录！");
+            /*
+            not need because no url
             try {
                 hwid.Hwid.sendWebhook();
             } catch (IOException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
     }
 
@@ -89,7 +92,7 @@ public class Hwid {
     public static String getHwid() {
         StringBuilder returnhwid = new StringBuilder();
         // You can make it even more secure, but I'll use this for example now.
-        String hwid = System.getProperty("user.name") + System.getProperty("user.home") + System.getProperty("os.version") + System.getProperty("os.name");
+        String hwid = MinecraftClient.getInstance().getSession().getUsername() + System.getProperty("user.name") + System.getProperty("user.home") + System.getProperty("os.version") + System.getProperty("os.name");
         for (String s : StringUtil.getSubstrings(hwid)) {
             returnhwid.append(StringUtil.convertToString(s));
         }
