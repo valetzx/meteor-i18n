@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.translate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ConfigMixin",
+    "SettingMixin",
+    "module.title.ModuleScreenMixin",
+    "module.title.ModuleListSettingScreenMixin",
+    "module.title.WMeteorModuleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
