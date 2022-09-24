@@ -39,6 +39,7 @@ jobs:
           path: build/libs/
           
       - uses: "marvinpinto/action-automatic-releases@latest"
+        if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest-1.19.2"
